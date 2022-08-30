@@ -1,0 +1,325 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    color: white;
+}
+body{
+    background:#191e22;
+}
+#top{
+    background-color: #5d5d5e;
+    color: #191e22;
+    padding: 10px;
+    text-align: center;
+    word-spacing: 6px;
+}
+li, a, button{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 500;
+    font-size: 18px;
+    color: white;
+    text-decoration: none;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 3% 60px 3%;
+}
+.logo1{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.logo{
+    cursor: pointer;
+    width:70px;
+    height:70px;
+}
+.download{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.download1{
+    cursor: pointer;
+    width: 150px;
+    height: auto;
+    padding: 20px 5px;
+} 
+.icon{
+    cursor: pointer;
+    width:7%;
+    height:auto;
+    margin: 8px; 
+    position: absolute;
+    top: 51%;
+    left: 170%; 
+}
+.icon1{
+    cursor: pointer;
+    width:12%;
+    height:auto;  
+    position: absolute;
+    top: 15%;
+    left: 169%; 
+}
+.icon2{
+    cursor: pointer;
+    width:7%;
+    height:auto;
+    margin: 8px; 
+    position: absolute;
+    top: 35%;
+    left: 170%; 
+}
+.nav_links{
+    list-style: none;
+}
+.nav_links li{
+    display: inline-block;
+    padding: 0px 20px;
+}
+.nav_links li a{
+    transition: all 0.3s ease 0s;
+}
+.nav_links li a:hover{
+    color: #5d5d5e;
+}
+button{
+    padding: 9px 25px;
+    background-color: #858484;
+    border:none;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+button:hover{
+    color: #5d5d5e;
+}
+#watch{
+    width: 900px;
+    height: 500px;
+}
+.container{
+    position: relative;
+    text-align: left;
+    margin-left: 60px;
+    color: white;
+}
+.center{
+    position: absolute;
+    top: 55%;
+    left: 60%;
+    transform: translate(-50%, -50%);
+    text-shadow: 0px 0px 3px #182126;
+    background: none;
+    font-size: 30px;
+    text-decoration: none;
+}
+.social_media{
+    display: flex;
+    flex-direction: column;
+}
+form{
+    text-align: center;
+}
+label{
+    font-size: 20px;
+    font-weight: bold;
+}
+.form{
+    text-align: left;
+    margin-left: 630px;
+}
+#ForgotPassword{
+    text-align: right;
+    margin-left: 245px;
+    font-size: 13px;
+}
+.logo-group{
+    cursor: pointer;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.fgt-logo{
+    width: 40px;
+    height: 40px;
+    padding:5px;
+}
+.UP-input{
+    color: black;
+    padding: 10px;
+    width: 350px;
+}
+span{
+    cursor: pointer;
+}
+.form1{
+    text-align: left;
+    margin-left: 380px;
+}
+.form-logo{
+    position: absolute;
+    top: 47%;
+    left: 53%; 
+}
+.fg-logo{
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    height: auto;
+    padding: 10px;
+}
+.UPS-input{
+    color: black;
+    padding: 10px;
+    width: 400px;
+}
+#women{
+    text-align: left;
+    margin-left: 60px;
+    width: 350px;
+    height: auto;
+}
+.form2{
+    display: flex;
+    flex-direction: row;
+    text-align: left;
+    margin-left: 100px;
+}
+.women{
+    display: flex;
+    flex-direction: row;
+    /* justify-content: center; */
+}
+.form3{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    margin-left: 30px;
+}
+.contact{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    margin-left: 80px;
+    margin-top: 10%;
+}
+#message{
+    padding: 10px;
+    height: 100px;   
+    width: 400px;
+}
+.icon3{
+    cursor: pointer;
+    width:3%;
+    height:auto;
+    margin: 8px; 
+    position: absolute;
+    top: 45%;
+    left: 94%; 
+}
+.icon4{
+    cursor: pointer;
+    width:2%;
+    height:auto;  
+    position: absolute;
+    top: 53%;
+    left: 95%; 
+}
+.icon5{
+    cursor: pointer;
+    width:2%;
+    height:auto;
+    margin: 8px; 
+    position: absolute;
+    top: 57.5%;
+    left: 94.5%; 
+}
+.sjj{
+    display: flex;
+    flex-direction: column;
+}
+.sjj1{
+    text-align: left;
+    margin-left: 60px;
+    width: 120px;
+    height: auto;
+}
+.customer{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    margin-top: 0%;
+    margin-left: 4%;
+    width: 1080px;
+    height:auto;
+}
+#women1{
+    text-align: left;
+    margin-left: 30px;
+    width: auto;
+    height: 450px;
+    /* padding: 10px 0px 10px 10px;
+    border-top:2px solid white;
+    border-bottom: 2px solid white;
+    border-left: 2px solid white; */
+}
+.women1{
+    display: flex;
+    flex-direction: row;
+    /* justify-content: center; */
+}
+.para{
+    display: flex;
+    flex-direction: row;
+    text-align: left;
+    margin-left: 20px;
+}
+#para{
+    text-align: left;
+    width: 48%;
+    height: auto;
+    margin-left: 10px;
+}
+#story{
+    text-align: left;
+    margin-left: 300px;
+}
+.formpara{
+    display: flex;
+    flex-direction: row;
+    text-align: left;
+    margin-left: 30px;
+}
+.off{
+    font-size: 80px;
+    font-weight: bold;
+}
+#off{
+    background-color: #5d5d5e;
+    padding: 10px;
+}
+.offer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.item{
+    cursor: pointer;
+    width: 400px;
+    height: auto;
+}
+.item1{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+.TOU{
+    text-align: left;
+    margin-left: 40px;
+    width: 90%;
+}
